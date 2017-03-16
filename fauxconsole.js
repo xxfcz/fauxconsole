@@ -3,8 +3,7 @@
  * re-written by Roland Hummel (https://github.com/defaude/fauxconsole).
  */
 (function (window) {
-    // for use of callee in IEContentLoaded()
-    // "use strict"; // mostly for me and my IDE :)
+    "use strict"; // mostly for me and my IDE :)
 
     var consoleName = 'console';   // use a name other than 'console' for the convenience of debugging
 
